@@ -1,5 +1,10 @@
 .large-hero {
     position: relative;
+    border-bottom: 10px solid $mainBlueDark;
+
+    &__image{
+        display: block;
+    }
 
     &__text-content {
         position: absolute;
@@ -13,12 +18,12 @@
     &__title {
     font-weight: 300;
     color: $mainWhite;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin: 1rem;
     text-shadow: 1px 1px 0 rgb(0 0 0);
 
         @mixin atSmall {
-            font-size: 3rem;
+            font-size: 4.5rem;
         }
 
         @mixin atMedium {
@@ -41,11 +46,11 @@
         text-shadow: 1px 1px 0 rgb(0 0 0);
 
         @mixin atSmall {
-            font-size: 2.5rem;
+            font-size: 3.5rem;
         }
 
         @mixin atMedium {
-            font-size: 3.2rem;
+            font-size: 3.9rem;
         }
 
         @mixin atLarge {
