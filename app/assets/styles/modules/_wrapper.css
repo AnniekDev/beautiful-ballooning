@@ -1,37 +1,26 @@
-.wrapper{
-
+.wrapper {
+    overflow: hidden;
     padding-left: 18px;
     padding-right: 18px;
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-
+  
     &--medium {
-    max-width: 976px;
+      max-width: 976px;
     }
-
-    &--about{
-        text-align: center;
-        margin:auto;
-
-        @mixin atSmall{
-        margin-left: 8rem;
-        margin-right: 2rem;
-        text-align: left;
-        }
+  
+    .wrapper {
+      padding-left: 0;
+      padding-right: 0;
     }
-
-    .wrapper{
-        padding-left: 0;
-        padding-right: 0;
+  
+    &--b-margin {
+      margin-bottom: 1rem;
+  
+      @mixin atSmall {
+        margin-bottom: 3.875rem;
+      }
     }
-
-    &--b-margin{
-        margin-bottom: 2rem;
-
-        @mixin atSmall{
-        margin-bottom: 3.8rem;
-        }
-    }
-}
+  
+  }
