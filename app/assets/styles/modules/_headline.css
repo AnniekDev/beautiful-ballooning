@@ -26,5 +26,9 @@
         &--orange{
             font-size: 1.5rem;
         }
+    } 
+
+    &--no-t-margin{
+        margin-top:0;
     }
 }
