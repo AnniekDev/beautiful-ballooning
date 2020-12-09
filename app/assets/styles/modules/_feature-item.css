@@ -1,0 +1,20 @@
+.feature-item{
+    position: relative;
+    padding-left: 94px;
+    padding-bottom: .5rem;
+    
+
+    &__icon {
+        position: absolute;
+        left:0;
+        font-size: 3.5rem;
+        color: $mainOrange;
+        
+    }
+
+    &__title{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: .4rem;
+    }
+}

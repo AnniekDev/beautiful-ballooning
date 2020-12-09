@@ -2,6 +2,7 @@
     font-weight: 500;
     font-size: 1.7rem;
     color: $mainBlueDark;
+    text-align: center;
 
 
     &--centered {
@@ -22,6 +23,7 @@
     @mixin atSmall{
         font-weight: 400;
         font-size: 2rem;
+        text-align: left;
 
         &--orange{
             font-size: 1.5rem;
