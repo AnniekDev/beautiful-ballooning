@@ -23,7 +23,7 @@
     @mixin atSmall{
         font-weight: 400;
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
 
         &--orange{
             font-size: 1.5rem;

@@ -9,4 +9,10 @@
         background-color: $mainBlueDark;
         color: $mainWhite;
     }
+
+    &--testimonials{
+        background: url('assets/img/testimonials-bg.jpg') top center / cover no-repeat;
+        
+      
+    }
 }
