@@ -1,7 +1,7 @@
 
 
 .btn {
-    background-color:$mainBlue;
+    background-color:$mainBlueDark;
     color: $mainWhite;
     text-decoration: none;
     padding: .75rem 1.5rem;
