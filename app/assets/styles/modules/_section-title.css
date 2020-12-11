@@ -11,9 +11,13 @@
         text-align: left;
     }
 
-    &--white{
+    &--white--toggle{
+        color: $mainBlueDark;
+               
+        @mixin atMedium{
         color: $mainWhite;
-        text-shadow: 1px 1px 0 rgb(0 0 0);
+        text-shadow: 1px 1.5px 0 rgb(0 0 0);
+                }
     }
 }
 
