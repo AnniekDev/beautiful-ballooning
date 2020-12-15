@@ -12,7 +12,7 @@
     }
 
     &--white--toggle{
-        color: $mainBlueDark;
+        color: $mainBlue;
                
         @mixin atMedium{
         color: $mainWhite;
