@@ -54,11 +54,11 @@
         @mixin atMedium{
             padding: 12px 0;
             background-color: transparent;
+
+            &.is-current-link{
+                color: $mainOrange;
+            }
         }
-        
-        &:hover{
-            transition: border .2s;
-            border-bottom: 2px solid $mainWhite;
-        }
+       
     }
 }
