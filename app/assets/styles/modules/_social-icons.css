@@ -1,0 +1,25 @@
+.social-icons{
+    text-align: center;
+
+    &__icon{
+    color: $mainBlue;
+    display: inline-block;
+    width: 33%;
+    height: 72px;
+    margin: 5px 0;
+    font-size: 3.5rem;
+
+    @mixin atSmall{
+        width: 65px;
+        height: 72px;
+        margin: 0 5px 5px 5px;
+    }
+
+    &:hover{
+        color: $mainOrange;
+    }
+
+    }
+      
+}
+

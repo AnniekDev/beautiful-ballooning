@@ -11,6 +11,10 @@
         text-align: left;
     }
 
+    &--blue{
+        color: $mainBlue;
+    }
+
     &--white--toggle{
         color: $mainBlue;
                
@@ -18,6 +22,11 @@
         color: $mainWhite;
         text-shadow: 1px 1.5px 0 rgb(0 0 0);
                 }
+    }
+
+    &--less-margin{
+        margin-bottom: 1.3rem;
+        margin-top: 0;
     }
 }
 
