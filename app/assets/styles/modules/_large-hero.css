@@ -51,11 +51,11 @@
         }
 
         @mixin atMedium {
-            font-size: 3.9rem;
+            font-size: 3rem;
         }
 
         @mixin atLarge {
-            font-size: 4rem;
+            font-size: 3rem;
         }
 
     }

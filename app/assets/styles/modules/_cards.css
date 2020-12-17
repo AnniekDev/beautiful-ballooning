@@ -1,7 +1,16 @@
 .card{
 
     border: 1px solid $mainWhite;
-   
+    margin-bottom: 2rem;
+
+    @mixin atMedium{
+    margin-bottom: 0;
+
+    }
+
+    
+  
+
     &-title{
         text-align: center;
     }
