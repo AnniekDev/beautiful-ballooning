@@ -53,7 +53,7 @@ calcSection(element){
             document.querySelectorAll(`.primary-nav a:not(${matchingLink})`).forEach(element => element.classList.remove("is-current-link"))
             document.querySelector(matchingLink).classList.add("is-current-link")
         }  else if(scrollPercent > 38 && this.scrollDirection == 'up') {
-            document.querySelector('#about-us-link').classList.remove('is-current-link');
+            document.querySelector('#flights').classList.remove('is-current-link');
         }
     }
 }

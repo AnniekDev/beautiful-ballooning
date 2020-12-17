@@ -1,7 +1,7 @@
 .card{
 
     border: 1px solid $mainWhite;
-
+   
     &-title{
         text-align: center;
     }
@@ -9,5 +9,6 @@
     &-text{
         text-align: center;
     }
+
     
 }
